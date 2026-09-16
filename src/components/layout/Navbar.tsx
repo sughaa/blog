@@ -2,12 +2,12 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
-      <div>
+    <nav className="">
+      <div className="navbar-brand">
         <NavLink to="/">My Blog</NavLink>
       </div>
 
-      <div>
+      <div className="navbar-links ">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/posts">Posts</NavLink>
         <NavLink to="/about">About</NavLink>
@@ -17,3 +17,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
