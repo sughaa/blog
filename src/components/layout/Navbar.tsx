@@ -11,6 +11,7 @@ function Navbar() {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/posts">Posts</NavLink>
         <NavLink to="/about">About</NavLink>
+        <input className="btn btn-sm" type="btn" placeholder="Search..." />
       </div>
     </nav>
   );

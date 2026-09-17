@@ -4,6 +4,7 @@ import Layout from "../components/layout/Layout";
 import Home from "../pages/Home";
 import Posts from "../pages/Posts";
 import About from "../pages/About";
+import Input from "../pages/Input";
 import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
         path: "about",
         element: <About />,
       },
+      {
+        path: "input",
+        element: <Input />,
+      }
     ],
   },
 
